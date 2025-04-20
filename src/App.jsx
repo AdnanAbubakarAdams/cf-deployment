@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import axios from 'axios';
 // import './App.css';
 
-// import CatFacts from './components/CatFacts';
+import CatFacts from './CatFacts';
 import Homepage from './Homepage';
 import Navbar from './Navbar';
 
@@ -17,7 +17,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/Homepage' element={<Homepage/>} />
-        {/* <Route path="/catfacts" element={<CatFacts/>}/> */}
+        <Route path="/catfacts" element={<CatFacts/>}/>
       </Routes>
      </Router>
     </div>
