@@ -12,7 +12,7 @@ import Navbar from './Navbar';
 function App() {
 
   return (
-    <div>
+    <div className='main-div'>
      <Router>
       <Navbar/>
       <Routes>
