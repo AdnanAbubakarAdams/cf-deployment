@@ -6,15 +6,15 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // import CatFacts from './components/CatFacts';
 import Homepage from './Homepage';
-// import NavBar from './components/NavBar';
+import Navbar from './Navbar';
 
 
 function App() {
 
   return (
-    <div className="App">
+    <div>
      <Router>
-      <NavBar/>
+      <Navbar/>
       <Routes>
         <Route path='/Homepage' element={<Homepage/>} />
         {/* <Route path="/catfacts" element={<CatFacts/>}/> */}
